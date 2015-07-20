@@ -70,8 +70,8 @@ PRODUCT_PACKAGES += \
     charger_res_images
 
 # Connectivity
-PRODUCT_PACKAGES += \
-    libcnefeatureconfig
+#PRODUCT_PACKAGES += \
+#    libcnefeatureconfig
 
 # Display
 PRODUCT_PACKAGES += \
@@ -196,8 +196,8 @@ PRODUCT_PACKAGES += \
     ueventd.qcom.rc
 
 # Sensors
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/sensor_def_qcomdev.conf:system/etc/sensor_def_qcomdev.conf
+#PRODUCT_COPY_FILES += \
+#    $(LOCAL_PATH)/configs/sensor_def_qcomdev.conf:system/etc/sensor_def_qcomdev.conf
 
 # Thermal
 PRODUCT_COPY_FILES += \
