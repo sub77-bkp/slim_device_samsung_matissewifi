@@ -13,14 +13,14 @@
   },
   {
     "remote": "sub",
-    "repository": "slim_vendor_samsung_matisse-common",
+    "repository": "sub77-bkp/slim_vendor_samsung_matisse-common",
     "target_path": "vendor/samsung/matisse-common",
-    "revision": "blisspop"
+    "revision": "minimal"
   },
   {
    "remote": "sub",
-   "repository": "slim_kernel_samsung_matisse",
+   "repository": "sub77-bkp/slim_kernel_samsung_matisse",
    "target_path": "kernel/samsung/matisse",
-   "revision": "aosparadox"
+   "revision": "minimal"
    }
 ]
