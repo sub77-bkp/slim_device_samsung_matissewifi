@@ -580,8 +580,6 @@ service audiod /system/bin/audiod
 
 service charger /charger
     class charger
-    critical
-    seclabel u:r:healthd:s0
 
 service ds_fmc_appd /system/bin/ds_fmc_appd -p "rmnet0" -D
     class late_start
